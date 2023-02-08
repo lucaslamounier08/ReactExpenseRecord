@@ -11,8 +11,7 @@ const ExpenseItem = (props) => {
   let amount = props.amount;
 
   const clickHandler = () => {
-    setTitle("hey from old value: " + props.title);
-    console.log("Clicked");
+    setTitle("Old value: " + props.title);
   };
 
   return (
