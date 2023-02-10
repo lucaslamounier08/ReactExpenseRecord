@@ -5,9 +5,15 @@ import Expenses from "./components/Expenses/Expenses";
 
 const DUMMY_EXPENSES = [
   {
+    title: "New Porshe",
+    amount: 777.37,
+    date: new Date(2023, 0, 1),
+    id: Math.random().toString(),
+  },
+  {
     title: "Car Insurance",
     amount: 294.67,
-    date: new Date(2023, 2, 12),
+    date: new Date(2023, 1, 12),
     id: Math.random().toString(),
   },
   {
